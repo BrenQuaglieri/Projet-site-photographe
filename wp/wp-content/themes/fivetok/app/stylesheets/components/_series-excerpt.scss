@@ -1,0 +1,139 @@
+.content {
+
+   //background-image: url('/visuels/MANIF/MARCHE_19_Mars_BD_18.jpg');
+   //background-repeat: no-repeat;
+   //background-size: cover;
+   //background-position: top, center ;
+   width: 100vw;
+   margin: auto;
+   padding-bottom: 10px;
+  h2 {
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    text-transform: uppercase;
+  }
+  &__hr {
+    background-color: white;
+    height: 2px;
+    width: 50px;
+    position: relative;
+    top: 0px;
+  }
+  &__list {
+
+    h4 {
+      text-align: center;
+      color: $general-text;
+      font-size: 2em;
+      padding-top: 40px;
+    }
+    h4:hover{
+      color: $general-text;
+    }
+    a {
+      //SI TU VEUX REMETTRE LES ESPACES POUR LES PHOTOS C'EST ICI
+      padding: 3px;
+      margin-top: 3px;
+      img {
+        -webkit-box-shadow: 0px 3px 87px 5px rgba(0,0,0,0.48);
+        -moz-box-shadow: 0px 3px 87px 5px rgba(0,0,0,0.48);
+        box-shadow: 0px 3px 87px 5px rgba(0,0,0,0.48);
+        padding: 0;
+        border: solid 1px #0f0f0f;
+      }
+    }
+  }
+}
+
+@media all and (min-width:750px) {
+  .content {
+     //background-image: url('/visuels/MANIF/MARCHE_19_Mars_BD_18.jpg');
+     //background-repeat: no-repeat;
+     //background-size: cover;
+     //background-position: top, center ;
+     width: 100vw;
+     margin: auto;
+    h2 {
+      color: white;
+      text-align: center;
+      padding-top: 25px;
+      text-transform: uppercase;
+
+    }
+    &__hr {
+      background-color: white;
+      height: 2px;
+      width: 50px;
+      position: relative;
+      top: 0px;
+    }
+    &__list {
+
+      h4 {
+        text-align: center;
+        color: $general-text;
+        font-size: 4em;
+        padding-top: 70px;
+      }
+      a {
+        //SI TU VEUX REMETTRE LES ESPACES POUR LES PHOTOS C'EST ICI
+        padding: 3px;
+        margin-top: 3px;
+        img {
+          -webkit-box-shadow: 0px 3px 87px 5px rgba(0,0,0,0.48);
+          -moz-box-shadow: 0px 3px 87px 5px rgba(0,0,0,0.48);
+          box-shadow: 0px 3px 87px 5px rgba(0,0,0,0.48);
+          padding: 0;
+          border: solid 1px #0f0f0f;
+        }
+      }
+    }
+  }
+}
+@media all and (min-width:1024px) {
+  .content {
+     //background-image: url('/visuels/MANIF/MARCHE_19_Mars_BD_18.jpg');
+     //background-repeat: no-repeat;
+     //background-size: cover;
+     //background-position: top, center ;
+     width: 100vw;
+     margin: auto;
+     margin-top: 50px;
+    h2 {
+      color: white;
+      text-align: center;
+      padding-top: 25px;
+      text-transform: uppercase;
+
+    }
+    &__hr {
+      background-color: white;
+      height: 2px;
+      width: 50px;
+      position: relative;
+      top: 0px;
+    }
+    &__list {
+
+      h4 {
+        text-align: center;
+        color: $general-text;
+        font-size: 4em;
+        padding-top: 70px;
+      }
+      a {
+        //SI TU VEUX REMETTRE LES ESPACES POUR LES PHOTOS C'EST ICI
+        padding: 3px;
+        margin-top: 3px;
+        img {
+          -webkit-box-shadow: 0px 3px 87px 5px rgba(0,0,0,0.48);
+          -moz-box-shadow: 0px 3px 87px 5px rgba(0,0,0,0.48);
+          box-shadow: 0px 3px 87px 5px rgba(0,0,0,0.48);
+          padding: 0;
+          border: solid 1px #0f0f0f;
+        }
+      }
+    }
+  }
+}

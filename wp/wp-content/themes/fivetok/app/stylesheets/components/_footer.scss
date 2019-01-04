@@ -1,0 +1,28 @@
+footer {
+  background-image: linear-gradient(to bottom, black,black,black);
+  text-align:center;
+      height: 16vh;
+      width: 100%;
+      position: static;
+      bottom: 0;
+      p:nth-child(0n+1) {
+      padding-top: 2px;
+      }
+      p {
+        margin-bottom: 1px;
+      }
+}
+
+@media all and (min-width:750px) {
+  footer {
+    background-image: linear-gradient(to bottom, black,black,black);
+    text-align:center;
+        height: 11vh;
+        p:nth-child(0n+1) {
+        padding-top: 2px;
+        }
+        p {
+          margin-bottom: 1px;
+        }
+  }
+}

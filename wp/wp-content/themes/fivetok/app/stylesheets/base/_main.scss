@@ -1,0 +1,21 @@
+html {
+  margin: auto;
+  width: 100vw;
+  height: 100%!important;
+  body {
+    font-family: 'Righteous', cursive;
+    background-color: $page-color  ;
+    width: 100vw;
+    min-height: 100%!important;
+    color: $general-text;
+    -webkit-box-shadow: inset 0px 3px 114px 1px rgba(0,0,0,0.48);
+    -moz-box-shadow: inset 0px 3px 114px 1px rgba(0,0,0,0.48);
+    box-shadow: inset 0px 3px 114px 1px rgba(0,0,0,0.48);
+    a:hover {
+      color: $general-text;
+    }
+  }
+}
+.woocommerce-product-gallery {
+  opacity: 1;
+}
